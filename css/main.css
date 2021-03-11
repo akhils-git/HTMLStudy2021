@@ -1,0 +1,31 @@
+body {
+  background: white;
+}
+
+.main {
+  background: #b4afaf;
+  padding: 5px;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+}
+
+.div-basic {
+  background-color: #9629df;
+  width: 200px;
+  height: 250px;
+  margin: 5px;
+  float: left;
+}
+
+.div-advanced {
+  background-color: #a81a6d;
+  width: 200px;
+  height: 250px;
+  margin: 5px;
+  position: relative;
+  float: left;
+}
+/*# sourceMappingURL=main.css.map */

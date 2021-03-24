@@ -1,8 +1,12 @@
+html {
+  font-size: 16px;
+}
+
 .text-section {
-  font-size: 1em;
+  font-size: 2rem;
 }
 
 .text-section div {
-  font-size: 1.5em;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */

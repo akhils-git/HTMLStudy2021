@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  height: 100vh;
+  border: 20px solid black;
+  display: flex;
+  // align-items: center;
+  //  flex-direction: column;
+  // justify-content: space-evenly;
+  // align-items: center;
+  // flex-wrap: wrap;
+  // align-content: center
+  // align-items: baseline; //Same textline
+  // flex-flow: column wrap;
+}
+.child1 {
+  height: 200px;
+  width: 200px;
+  background: red;
+  flex: 1;
+  // flex-grow: 1;
+}
+.child2 {
+  height: 200px;
+  width: 200px;
+  background: darkblue;
+  // flex-grow: 1;
+}
+.child3 {
+  height: 200px;
+  width: 200px;
+  background: darkgreen;
+  // flex-grow: 4;
+}
+// .child4 {
+//   height: 200px;
+//   width: 200px;
+//   background: rgb(151, 21, 123);
+//   order: 0;
+// }

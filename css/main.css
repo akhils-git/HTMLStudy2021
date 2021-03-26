@@ -1,13 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
-button {
-  margin: 20rem;
-  padding: 2rem 4rem;
-  background-color: none;
-  border: 0.3rem solid #2aace9;
-  color: #2aace9;
-  border-radius: 1rem;
+h1 {
+  height: 2rem;
+  background: lightblue;
 }
 /*# sourceMappingURL=main.css.map */

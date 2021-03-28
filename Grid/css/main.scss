@@ -1,3 +1,37 @@
-body {
-  background: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  background: darkcyan;
+}
+.box2 {
+  background: darkgreen;
+}
+.box3 {
+  background: darkmagenta;
+}
+main {
+  display: grid;
+  height: 100vh;
+  // grid-template-columns: 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  // grid-template-rows: 200px 200px;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 2vh;
+}
+.box1 {
+  // grid-column: 1/2;
+  grid-row: 1/4;
+}
+.box2 {
+  grid-row: 1/3;
+}
+.box3 {
+  // grid-column-start: 1;
+  // grid-column-end: 3;
+  // grid-column: 3/4;
+  grid-row: 1/4;
 }
